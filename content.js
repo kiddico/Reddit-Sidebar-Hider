@@ -32,6 +32,8 @@ function clear(){
 	console.log("cleared");
 }
 
+//used later to store the contents of the sidebar
+//makes toggling so much quicker
 var sidebarcontents;
 
 ////////// Initial Setup
@@ -76,7 +78,10 @@ chrome.runtime.onMessage.addListener(
 					dataobj["preference"] = 2;
 					chrome.storage.local.set(dataobj);
 					var sidebar = document.querySelector('.side');
-					sidebar.innerHTML = sidebarcontents;
+					if(sidebarcontents != {})
+						sidebar.innerHTML = sidebarcontents;
+					else
+						reloadCurrentTab();
 				}
 				else{
 					dataobj["preference"] = 1;

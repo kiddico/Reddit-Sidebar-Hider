@@ -1,3 +1,5 @@
+
+
 //okay. so this will have to listen for a message 
 //if it's the right one it reloads the page
 chrome.runtime.onMessage.addListener(
