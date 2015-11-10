@@ -12,7 +12,7 @@
 		}
 	],
 	"browser_action": {
-		"default_icon": "icon.png",
+		"default_icon": "reddit_small.png",
 		"default_title": "Toggle Reddit Sidebar",
 		"default_popup": "main.html"
 	},
