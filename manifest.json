@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2,
+	"name": "Hide Reddit Sidebar",
+	"version": "0.1",
+	"permissions": ["https://www.reddit.com/*","http://www.reddit.com/*"],
+	"content_scripts": [
+		{
+			"all_frames": true,
+			"matches": ["http://www.reddit.com/*","https://www.reddit.com/*"],
+			"js": ["content.js"],
+			"run_at": "document_end"
+		}
+	]
+
+}
