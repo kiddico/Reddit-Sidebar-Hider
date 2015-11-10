@@ -1,63 +1,51 @@
 //changes preference in local storage
 function flipflop(){
-	var pref = {};
-		chrome.storage.local.get(["preference"],function(result){
+	console.log("in flip flop");
+	chrome.storage.local.get(["preference"],function(result){
+		var pref = {};
 		pref = result.preference;
+		var dataobj = {};
+		//logic to flipflop preference
+		if(pref == 1)
+			dataobj["preference"] = 0;
+		else
+			dataobj["preference"] = 1;
+		//put in new value
+		chrome.storage.local.set(dataobj);
 	});
-	dataobj = {};
-	if(pref == 1)
-		dataobj["preference"] = 0;
-	else
-		dataobj["preference"] = 1;
-	chrome.storage.local.set(dataobj);
 };
 
-var orig = {};
-function lazy(whatever){
-	orig=whatever["preference"];
-	console.log(orig);
+function clear(){
+	chrome.storage.local.remove(["preference"]);
+	console.log("cleared");
 }
-//Look in the local storage for the preference value
-chrome.storage.local.get(["preference"],function(returned){
-		//orig = returned["preference"];
-		//console.log(orig);
-		lazy(returned);//this is a call to my lazy function
-					//cause idk how asyc or callbacks work
-	}
-);
-console.log(orig);
-//if there is no preference make one
-if(orig == {}){
-	var dataobj = {};
-	//set preference to false
-	dataobj["preference"] = 0;
-	chrome.storage.local.set(dataobj);
-}
-//if the original value is set to true get rid of the sidebar
-if(orig == 1){
-	var sidebar = document.querySelector('.side');
-	sidebar.innerHTML = '';
-	console.log("removed sidebar");
-}
-//do nothing if orig was 0
-console.log("after all"+orig);
 
-/*
-var dataobj = {};
-dataobj["preference"] = 1;
-chrome.storage.local.set(dataobj);
-chrome.storage.local.get(["preference"],function(returned){
-		console.log(returned);
+
+//Look in the local storage for the preference value
+//action taken depends on state of return
+chrome.storage.local.get(["preference"],function(returned)
+	{
+		var orig = {};
+		orig = returned["preference"];
+		//I suppose I can put everything in the callback.
+		if(orig == {}){
+			console.log("This is in the first orig check");
+			var dataobj = {};
+			dataobj["preference"] = 0;
+			chrome.storage.local.set(dataobj);
+		}
+		if(orig == 1){
+			console.log("This is in the second orig check");
+			var sidebar = document.querySelector('.side');
+			sidebar.innerHTML = '';
+			console.log("removed sidebar");
+		}
+		//if the result was 0 then we do nothing
 	}
 );
-chrome.storage.local.remove(["preference"]);
-console.log(
-		chrome.storage.local.get(["preference"],function(returned){
-			console.log(returned);
-		}
-	)
-);
-*/
+
+
+
 /*
 //listens for our message from background.js
 chrome.runtime.onMessage.addListener(
@@ -76,25 +64,28 @@ chrome.runtime.onMessage.addListener(
 */
 chrome.runtime.onMessage.addListener(
 	function(request, sender, sendResponse) {
-		//if the json is actually for us
+		//if the message is actually for us
 		if( request.message === "toggle_button_press" ) {
 			//first look at preference
-			var pref = {};
+			console.log("responce in content");
 			chrome.storage.local.get(["preference"],function(result){
-				pref = result.preference;
+				var pref = {};
+				pref = result["preference"];
+				if(pref = 1){
+					flipflop();
+					console.log("before reload");
+					//reload page. hopefully this time with the sidebar back
+				}
+				else{
+					flipflop();
+					var sidebar = document.querySelector('.side');
+					sidebar.innerHTML = '';
+					console.log("removed sidebar");
+				}
 			});
 
 			//console.log("pref:" + pref);
-			if(pref = 1){
-				flipflop();
-				//reload page. hopefully this time with the sidebar back
-			}
-			else{
-				flipflop();
-				var sidebar = document.querySelector('.side');
-				sidebar.innerHTML = '';
-				console.log("removed sidebar");
-			}
+
 		}
 	}
 );
