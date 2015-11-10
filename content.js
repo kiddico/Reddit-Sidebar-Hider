@@ -1,22 +1,3 @@
-//changes preference in local storage
-//this takes too long, or can just cause weird stuff to happen
-//I got rid of it
-function flipflop(){
-	chrome.storage.local.get(["preference"],function(result){
-		var pref = {};
-		pref = result.preference;
-		pref = parseInt(pref);
-		var dataobj = {};
-		//logic to flipflop preference
-		if(pref == "1")
-			dataobj["preference"] = 0;
-		else
-			dataobj["preference"] = 1;
-		//put in new value
-		chrome.storage.local.set(dataobj);
-	});
-};
-
 //sends message to event page to reload
 function reloadTheCurrentTab(){
 	console.log("in reload func");
