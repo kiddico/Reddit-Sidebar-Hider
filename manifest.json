@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
-	"name": "Hide Reddit Sidebar",
-	"version": "0.1",
+	"name": "Reddit-Sidebar-Hider",
+	"version": "1.0",
 	"permissions": ["storage","tabs","https://www.reddit.com/*","http://www.reddit.com/*"],
 	"content_scripts": [
 		{
@@ -24,6 +24,5 @@
 	"externally_connectable": {
 		"ids":["*"],
 		"matches": ["https://www.reddit.com/*","http://www.reddit.com/*"]
-		
 	}
 }
