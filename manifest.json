@@ -26,7 +26,6 @@
 		"scripts": ["eventpage.js"],
 		"persistent": false
 	},
-	//pretty sure this bit isn't needed
 	"externally_connectable": {
 		"ids":["*"],
 		"matches": ["https://www.reddit.com/*","http://www.reddit.com/*"]
