@@ -9,4 +9,4 @@ Several people have said that the reason no one has made one of these yet is bec
 If you don't feel like running your browser in developer mode I put a pre-packaged crx in the packaged folder. Just drag it into your extensions window... thing.
 
 #####A short example gif
-![demo](http://i.imgur.com/TkbnkXh.gif)
+![demo](http://i.imgur.com/vKGM8k2.gif)
