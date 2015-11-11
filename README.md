@@ -8,4 +8,5 @@ Several people have said that the reason no one has made one of these yet is bec
 
 If you don't feel like running your browser in developer mode I put a pre-packaged crx in the packaged folder. Just drag it into your extensions window... thing.
 
-![alt tag](http://i.imgur.com/TkbnkXh.gifv)
+#####A short example gif
+[Imgur](http://i.imgur.com/TkbnkXh.gifv)
