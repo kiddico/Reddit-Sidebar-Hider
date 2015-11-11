@@ -1,6 +1,5 @@
 //sends message to event page to reload
 function reloadTheCurrentTab(){
-	console.log("in reload func");
 	chrome.runtime.sendMessage({message: "reload"}, function(response) {
 		console.log(response.farewell);
 	});
@@ -63,6 +62,7 @@ chrome.runtime.onMessage.addListener(
 						sidebar.innerHTML = sidebarcontents;
 					else
 						reloadCurrentTab();
+					console.log("sidebar revealed");
 				}
 				else{
 					dataobj["preference"] = 1;
@@ -70,7 +70,7 @@ chrome.runtime.onMessage.addListener(
 					var sidebar = document.querySelector('.side');
 					sidebarcontents = sidebar.innerHTML;
 					sidebar.innerHTML = '';
-					console.log("removed sidebar");
+					console.log("sidebar hidden");
 				}
 			});
 		}
