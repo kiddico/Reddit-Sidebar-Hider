@@ -12,6 +12,6 @@ If you don't feel like running your browser in developer mode I put a pre-packag
 ![demo](http://i.imgur.com/vKGM8k2.gif)
 
 ####Ideas
-*Settings page to choose odd settings   
-*have button toggle   
-  *or alternatively change the setting on settings page   
+* Settings page to choose odd settings   
+* have button toggle   
+  * or alternatively change the setting on settings page   
