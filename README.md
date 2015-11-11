@@ -1,4 +1,4 @@
-This is a simple chrome extension to toggle the sidebar on reddit.
+##This is a simple chrome extension to toggle the sidebar on reddit.
 
 Several people have said that the reason no one has made one of these yet is because it'll block the ads. So using it is kind of cruel to the site. So I suppose if you want to be morally safe don't use it.
 
@@ -6,3 +6,4 @@ Several people have said that the reason no one has made one of these yet is bec
 
 
 If you don't feel like running your browser in developer mode I put a pre-packaged crx in the packaged folder. Just drag it into your extensions window... thing.
+
