@@ -14,4 +14,4 @@ If you don't feel like running your browser in developer mode I put a pre-packag
 ####Ideas
 -Settings page to choose odd settings   
 -have button toggle   
-	-or alternatively change the setting on settings page   
+  -or alternatively change the setting on settings page   
