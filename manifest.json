@@ -3,6 +3,12 @@
 	"name": "Reddit-Sidebar-Hider",
 	"version": "1.0",
 	"permissions": ["storage","tabs","https://www.reddit.com/*","http://www.reddit.com/*"],
+	"icons":{
+		"16":"images/reddit_16.png",
+		"32":"images/reddit_32.png",
+		"64":"images/reddit_64.png",
+		"128":"images/reddit_128.png"
+	},
 	"content_scripts": [
 		{
 			"all_frames": true,
@@ -12,7 +18,7 @@
 		}
 	],
 	"browser_action": {
-		"default_icon": "reddit_small.png",
+		"default_icon": "images/reddit_128.png",
 		"default_title": "Toggle Reddit Sidebar",
 		"default_popup": "main.html"
 	},
