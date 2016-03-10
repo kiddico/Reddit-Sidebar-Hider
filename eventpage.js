@@ -18,11 +18,11 @@ chrome.runtime.onMessage.addListener(
 				sendResponse({farewell: "Page Reloading!"});
 });
 
-//not sure if on startup is for the browser, or just when you hit a page
-/*
-chrome.runtime.onStartup.addListener(function(){
-	console.log("startup");
+// working but silly implementation
+chrome.browserAction.onClicked.addListener(function(tab) {
+	chrome.tabs.query({active:true , currentWindow:true},function(tabs){
+		var activeTab=tabs[0];
+		chrome.tabs.sendMessage(activeTab.id,{"message":"toggle_button_press"});
+	});
 });
-*/
-
 
