@@ -19,10 +19,42 @@ chrome.runtime.onMessage.addListener(
 });
 
 // working but silly implementation
+/*
 chrome.browserAction.onClicked.addListener(function(tab) {
 	chrome.tabs.query({active:true , currentWindow:true},function(tabs){
 		var activeTab=tabs[0];
 		chrome.tabs.sendMessage(activeTab.id,{"message":"toggle_button_press"});
 	});
 });
+*/
+
+
+chrome.browserAction.onClicked.addListener(function(tab) {
+	chrome.storage.local.get(["preference"],function(result){
+		var pref = {};
+		var dataobj = {};
+		pref = result;
+		//convert pref to int so I can actually test against properly
+		var pref = parseInt(pref["preference"]);
+		if(pref == 1){
+			dataobj["preference"] = 2;
+			chrome.storage.local.set(dataobj);
+			var sidebar = document.querySelector('.side');
+			if(sidebarcontents != {})
+				sidebar.innerHTML = sidebarcontents;
+			else
+				reloadCurrentTab();
+			console.log("sidebar revealed");
+		}
+		else{
+			dataobj["preference"] = 1;
+			chrome.storage.local.set(dataobj);
+			var sidebar = document.querySelector('.side');
+			sidebarcontents = sidebar.innerHTML;
+			sidebar.innerHTML = '';
+			console.log("sidebar hidden");
+		}
+	});
+});
+
 
