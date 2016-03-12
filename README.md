@@ -11,7 +11,7 @@ Shout out to reddit Sidebar Hider, for doing what mine does, but a little bit be
 If you don't feel like running your browser in developer mode I put a pre-packaged crx in the packaged folder. Just drag it into your extensions window... thing.
 
 #####A short example gif
-![demo](http://i.imgur.com/vKGM8k2.gif)
+![demo](http://i.imgur.com/FUoN2nR.gif)
 
 ####Things to come!
 * Settings page to choose odd settings   
