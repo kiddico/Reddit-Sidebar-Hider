@@ -13,9 +13,3 @@ If you don't feel like running your browser in developer mode I put a pre-packag
 #####A short example gif
 ![demo](http://i.imgur.com/FUoN2nR.gif)
 
-####Things to come!
-* Settings page to choose odd settings   
-* have button toggle   
-  * or alternatively change the setting on settings page  
-* Copy the multireddit pane hider style, and have a clickable border
-  * border expands / hides the sidebar
