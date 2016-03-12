@@ -42,6 +42,7 @@ chrome.storage.local.get(["preference"],function(returned)
 	}
 );
 
+
 //Toggle button action
 chrome.runtime.onMessage.addListener(
 	function(request, sender, sendResponse) {
