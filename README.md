@@ -10,5 +10,5 @@ It's pretty easy to grasp. You hit the button, and the sidebar goes away. You hi
 If you don't feel like running your browser in developer mode I put a pre-packaged crx in the packaged folder. Just drag it into your extensions window... thing.
 
 #####A short example gif
-<img src="http://i.imgur.com/C4VnGyA.gif" height="600"/>
+<img src="http://i.imgur.com/5rmVwlZ.gif" height="600"/>
 
