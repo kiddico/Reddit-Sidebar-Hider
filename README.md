@@ -1,12 +1,9 @@
 ##Reddit Sidebar Hider ![icon](https://raw.githubusercontent.com/kiddico/Reddit-Sidebar-Hider/master/images/reddit_64.png)
 ####a simple chrome extension to toggle the reddit sidebar
 
-Several people have said that the reason no one has made one of these yet is because it'll block the ads, and reddit won't get ad revenue blah blah blah. Well the page is still loaded in fully, which I'm fairly not confident at all but will still say so on the internet that it will still count as a page view, and therefor an ad impression. Someone should probably double check. I have no idea how these computer things work.
-
-I just realized it says I need to see your activity history or something like that. That's the category the "tabs" API is in, which I need to see which window you're currently looking at. Oh well. Maybe I'll find a better way to do it sometime.
-
-Shout out to reddit Sidebar Hider, for doing what mine does, but a little bit better.
-[LINK!!](https://chrome.google.com/webstore/detail/reddit-sidebar-hider/gadkijfpineeapfidmlddbaiemjigpdb?hl=en)
+You know what I think is dumb? Then you have a small screen and you want to go on reddit and not hate life. But you get to reddit, and you hate life cause you can't actually do anything. Well you can, you just get a sliver of your own screen. The rest is owned by the all powerfull sidebar. Screw the sidebar. I hate it. Unless I need it. Then I love it. Why not both?
+Well this is both. This chrome extension is a simple sidebar hider for reddit.
+It's pretty easy to grasp. You hit the button, and hte sidebar goes away. You git it again, and it comes back. Simple.
 
 If you don't feel like running your browser in developer mode I put a pre-packaged crx in the packaged folder. Just drag it into your extensions window... thing.
 
