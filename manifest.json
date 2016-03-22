@@ -27,6 +27,6 @@
 	},
 	"externally_connectable": {
 		"ids":["*"],
-		"matches": ["https://www.reddit.com/*","http://www.reddit.com/*"]
+		"matches": ["https://www.reddit.com/*","http://www.reddit.com/*","http://www/np.reddit.com/*","https://www.np.reddit.com/*"]
 	}
 }
