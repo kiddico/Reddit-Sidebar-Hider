@@ -12,7 +12,7 @@
 	"content_scripts": [
 		{
 			"all_frames": true,
-			"matches": ["http://www.reddit.com/*","https://www.reddit.com/*"],
+			"matches": ["https://www.reddit.com/*","http://www.reddit.com/*","http://np.reddit.com/*","https://np.reddit.com/*"],
 			"js": ["content.js"],
 			"run_at": "document_end"
 		}
@@ -27,6 +27,6 @@
 	},
 	"externally_connectable": {
 		"ids":["*"],
-		"matches": ["https://www.reddit.com/*","http://www.reddit.com/*","http://www/np.reddit.com/*","https://www.np.reddit.com/*"]
+		"matches": ["https://www.reddit.com/*","http://www.reddit.com/*","http://np.reddit.com/*","https://np.reddit.com/*"]
 	}
 }
