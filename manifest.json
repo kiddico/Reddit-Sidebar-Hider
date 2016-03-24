@@ -14,6 +14,7 @@
 			"all_frames": true,
 			"matches": ["https://www.reddit.com/*","http://www.reddit.com/*","http://np.reddit.com/*","https://np.reddit.com/*"],
 			"js": ["content.js"],
+			"css": ["sidebar_stuff.css"],
 			"run_at": "document_end"
 		}
 	],
