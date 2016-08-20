@@ -9,6 +9,7 @@ It's pretty easy to grasp. You hit the button, and the sidebar goes away. You hi
 
 If you don't feel like running your browser in developer mode I put a pre-packaged crx in the packaged folder. Just drag it into your extensions window... thing.
 
+I've recently put it up on the chrome web store [here](https://chrome.google.com/webstore/detail/reddit-sidebar-hider/aipfmjljjkiepeocilaillicdohnkehp?hl=en&gl=US).
 
 Still working on the delay thing. And by that I mean I've given up on it cause it does what I need for now. But if someone has a suggestion for a solution I'll listen. Even if someone wants to make it happen, I'll accept a pull request.
 
