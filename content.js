@@ -32,6 +32,8 @@ chrome.storage.local.get(["preference"],function(returned)
 			var sidebar = document.querySelector('.side');
 			sidebarcontents = sidebar.innerHTML;
 			sidebar.innerHTML = '';
+			var wikimargin = document.querySelector('.wiki-page-content');
+			wikimargin.style.marginRight=0;
 			console.log("removed sidebar");
 		}
 		else{
@@ -59,8 +61,11 @@ chrome.runtime.onMessage.addListener(
 					dataobj["preference"] = 2;
 					chrome.storage.local.set(dataobj);
 					var sidebar = document.querySelector('.side');
-					if(sidebarcontents != {})
+					var wikimargin = document.querySelector('.wiki-page-content');
+					if(sidebarcontents != {}){
 						sidebar.innerHTML = sidebarcontents;
+						wikimargin.style.marginRight=0;
+					}
 					else
 						reloadCurrentTab();
 					console.log("sidebar revealed");
@@ -71,6 +76,8 @@ chrome.runtime.onMessage.addListener(
 					var sidebar = document.querySelector('.side');
 					sidebarcontents = sidebar.innerHTML;
 					sidebar.innerHTML = '';
+					var wikimargin = document.querySelector('.wiki-page-content');
+					wikimargin.style.marginRight=0;
 					console.log("sidebar hidden");
 				}
 			});
