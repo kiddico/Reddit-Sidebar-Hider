@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "Reddit-Sidebar-Hider",
-	"version": "1.2",
+	"version": "1.3",
 	"permissions": ["storage","tabs","https://www.reddit.com/*","http://www.reddit.com/*"],
 	"icons":{
 		"16":"images/reddit_16.png",
