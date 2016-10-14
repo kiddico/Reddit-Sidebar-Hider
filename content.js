@@ -4,18 +4,13 @@ function reloadTheCurrentTab(){
 		console.log(response.farewell);
 	});
 }
-
-//gets rid of saved data
-//if you want to cause yourself a lot of trouble just call it in random places
+//gets rid of saved data from the local storage
 function clear(){
 	chrome.storage.local.remove(["preference"]);
 	console.log("cleared");
 }
-
 //used later to store the contents of the sidebar
-//makes toggling so much quicker
 var sidebarcontents;
-
 ////////// Initial Setup
 //Look in the local storage for the preference value
 //action taken depends on state of return
@@ -43,8 +38,6 @@ chrome.storage.local.get(["preference"],function(returned)
 		}
 	}
 );
-
-
 //Toggle button action
 chrome.runtime.onMessage.addListener(
 	function(request, sender, sendResponse) {
