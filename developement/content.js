@@ -19,7 +19,6 @@ chrome.storage.local.get(["preference"],function(returned)
 		var orig = {};
 		orig = returned["preference"];
 		orig = parseInt(orig);
-		//I suppose I can put everything in the callback.
 		if(orig == 2){
 			//just chill.
 		}
