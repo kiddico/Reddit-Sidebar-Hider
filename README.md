@@ -1,7 +1,12 @@
-<!--<center>![icon](https://raw.githubusercontent.com/kiddico/Reddit-Sidebar-Hider/master/images/reddit_128.png)</center>-->
-<center>![icon](developement/images/reddit_128.png)![store-avail](images/store_availc.png)</center>
-
+<center>
+<div>
+![icon](https://raw.githubusercontent.com/kiddico/Reddit-Sidebar-Hider/master/images/reddit_128.png)
 ##<center>Reddit Sidebar Hider </center>
+</div>
+
+[![store-avail](https://raw.githubusercontent.com/kiddico/Reddit-Sidebar-Hider/images/store_availc.png)](https://chrome.google.com/webstore/detail/reddit-sidebar-hider/aipfmjljjkiepeocilaillicdohnkehp?hl=en&gl=US)
+</center>
+
 ####a simple chrome extension to toggle the reddit sidebar
 You know what I think is dumb? When you have a small screen and you want to go on reddit and not hate life. But you get to reddit, and you hate life cause you can't actually do anything. Well you can, you just get a sliver of your own screen. The rest is owned by the all powerfull sidebar. Screw the sidebar. I hate it. Unless I need it. Then I love it. Why not both?
 
