@@ -1,7 +1,7 @@
 <center>
 <div>
 ![icon](https://raw.githubusercontent.com/kiddico/Reddit-Sidebar-Hider/master/images/reddit_128.png)
-##<center>Reddit Sidebar Hider </center>
+##Reddit Sidebar Hider
 </div>
 
 [![store-avail](https://raw.githubusercontent.com/kiddico/Reddit-Sidebar-Hider/images/store_availc.png)](https://chrome.google.com/webstore/detail/reddit-sidebar-hider/aipfmjljjkiepeocilaillicdohnkehp?hl=en&gl=US)
