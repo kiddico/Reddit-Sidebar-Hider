@@ -1,5 +1,7 @@
 <center>
-![icon](https://raw.githubusercontent.com/kiddico/Reddit-Sidebar-Hider/master/images/reddit_128.png)[![store-avail](https://raw.githubusercontent.com/kiddico/Reddit-Sidebar-Hider/images/store_availc.png)](https://chrome.google.com/webstore/detail/reddit-sidebar-hider/aipfmjljjkiepeocilaillicdohnkehp?hl=en&gl=US)</center>
+![icon](https://raw.githubusercontent.com/kiddico/Reddit-Sidebar-Hider/master/developement/images/reddit_128.png)
+[![store-avail](https://raw.githubusercontent.com/kiddico/Reddit-Sidebar-Hider/master/images/store_availc.png)](https://chrome.google.com/webstore/detail/reddit-sidebar-hider/aipfmjljjkiepeocilaillicdohnkehp?hl=en&gl=US)
+</center>
 
 ##<center>Reddit Sidebar Hider </center>
 ####a simple chrome extension to toggle the reddit sidebar
