@@ -20,7 +20,7 @@ Well, you've got 3 options. (I would stick to #1 if I were you)
 
 1. Get it from the chrome web store [here](https://chrome.google.com/webstore/detail/reddit-sidebar-hider/aipfmjljjkiepeocilaillicdohnkehp?hl=en&gl=US).
 2. Get the latest pre-packaged .crx file from [here](https://github.com/kiddico/Reddit-Sidebar-Hider/tree/master/packaged/current).
-3. Or clone this repo to your computer, enable developer mode in your browser settings, and click the load unpacked extension button. The navigate to and select the developement folder in the cloned folder.
+3. Or clone this repo to your computer, enable developer mode in your browser settings, and click the load unpacked extension button. Then navigate to, and select the developement folder in the cloned folder.
 
 Todo:
 
