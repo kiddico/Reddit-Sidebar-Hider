@@ -24,5 +24,7 @@ Well, you've got 3 options. (I would stick to #1 if I were you)
 
 Todo:
 
+* Start developing a Firefox Solution.
+	* Alternatively focus on a cross platform implementation using the WebExtensions API.
 * Reduce or remove initial delay of sidebar removeal on pageload.
-* actually have users
+* actually have users.
