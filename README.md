@@ -10,9 +10,10 @@ You know what I think is dumb? When you have a small screen and you want to go o
 Well this is both. This chrome extension is a simple sidebar hider for reddit.
 
 It's pretty easy to grasp. You hit the button, and the sidebar goes away. You hit it again, and it comes back. I'll give you a moment to scrape your brain off the wall behind you.
-#####A short example gif
-<img src="http://i.imgur.com/COb00s1.gif" height="300"/>
-
+<div>
+<h3 style="float: left; display: inline;">A short example gif : &nbsp;&nbsp; </h3>
+<img style="display:inline" src="http://i.imgur.com/COb00s1.gif" height="300"/>
+</div>
 ### "How do I get the thing?" - You, 2016
 
 Well, you've got 3 options. (I would stick to #1 if I were you)
