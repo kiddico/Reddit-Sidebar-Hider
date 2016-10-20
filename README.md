@@ -10,14 +10,14 @@ You know what I think is dumb? When you have a small screen and you want to go o
 Well this is both. This chrome extension is a simple sidebar hider for reddit.
 
 It's pretty easy to grasp. You hit the button, and the sidebar goes away. You hit it again, and it comes back. I'll give you a moment to scrape your brain off the wall behind you.
-
-If you don't feel like running your browser in developer mode I put a pre-packaged crx in the packaged folder. Just drag it into your extensions window... thing.
-
-<!--I've recently put it up on the chrome web store [here](https://chrome.google.com/webstore/detail/reddit-sidebar-hider/aipfmjljjkiepeocilaillicdohnkehp?hl=en&gl=US). [![store](store.png)](https://chrome.google.com/webstore/detail/reddit-sidebar-hider/aipfmjljjkiepeocilaillicdohnkehp?hl=en&gl=US)
--->
-
-Still working on the delay thing. And by that I mean I've given up on it cause it does what I need for now. But if someone has a suggestion for a solution I'll listen. Even if someone wants to make it happen, I'll accept a pull request.
-
 #####A short example gif
 <img src="http://i.imgur.com/5rmVwlZ.gif" height="600"/>
 
+> "How do I get the thing" - you
+Well, you've got 3 options. (I would stick to #1 if I were you)
+1. Get it from the chrome web store [here](https://chrome.google.com/webstore/detail/reddit-sidebar-hider/aipfmjljjkiepeocilaillicdohnkehp?hl=en&gl=US).
+2. Get the latest pre-packaged .crx file from [here](https://github.com/kiddico/Reddit-Sidebar-Hider/tree/master/packaged/current).
+3. Or clone this repo to your computer, enable developer mode in your browser settings, and click the load unpacked extension button. The navigate to and select the developement folder in the cloned folder.
+Todo:
+* Reduce or remove initial delay of sidebar removeal on pageload.
+* actually have users
