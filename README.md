@@ -11,13 +11,17 @@ Well this is both. This chrome extension is a simple sidebar hider for reddit.
 
 It's pretty easy to grasp. You hit the button, and the sidebar goes away. You hit it again, and it comes back. I'll give you a moment to scrape your brain off the wall behind you.
 #####A short example gif
-<img src="http://i.imgur.com/5rmVwlZ.gif" height="600"/>
+<img src="http://i.imgur.com/COb00s1.gif" height="300"/>
 
-> "How do I get the thing" - you
+### "How do I get the thing?" - You, 2016
+
 Well, you've got 3 options. (I would stick to #1 if I were you)
+
 1. Get it from the chrome web store [here](https://chrome.google.com/webstore/detail/reddit-sidebar-hider/aipfmjljjkiepeocilaillicdohnkehp?hl=en&gl=US).
 2. Get the latest pre-packaged .crx file from [here](https://github.com/kiddico/Reddit-Sidebar-Hider/tree/master/packaged/current).
 3. Or clone this repo to your computer, enable developer mode in your browser settings, and click the load unpacked extension button. The navigate to and select the developement folder in the cloned folder.
+
 Todo:
+
 * Reduce or remove initial delay of sidebar removeal on pageload.
 * actually have users
