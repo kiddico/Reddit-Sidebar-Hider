@@ -26,5 +26,5 @@ Todo:
 
 * Start developing a Firefox Solution.
 	* Alternatively focus on a cross platform implementation using the WebExtensions API.
-* Reduce or remove initial delay of sidebar removeal on pageload.
+* Reduce or remove initial delay of sidebar removal on pageload.
 * actually have users.
