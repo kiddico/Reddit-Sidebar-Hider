@@ -1,0 +1,7 @@
+var sidebarcontents;chrome.storage.local.get(["preference"],function(returned)
+{var orig={};orig=returned.preference;orig=parseInt(orig);if(orig==2){chrome.runtime.sendMessage({"icon":1})}
+if(orig==1){var sidebar=document.querySelector('.side');sidebarcontents=sidebar.innerHTML;sidebar.innerHTML='';var wikimargin=document.querySelector('.wiki-page-content');wikimargin.style.marginRight=0;chrome.runtime.sendMessage({"icon":2})}
+else{var dataobj={};dataobj.preference=2;chrome.runtime.sendMessage({"icon":1});chrome.storage.local.set(dataobj)}});chrome.runtime.onMessage.addListener(function(request,sender,sendResponse){if(request.message==="toggle_button_press"){chrome.storage.local.get(["preference"],function(result){var pref={};var dataobj={};pref=result;var pref=parseInt(pref.preference);if(pref==1){dataobj.preference=2;chrome.storage.local.set(dataobj);var sidebar=document.querySelector('.side');if(sidebarcontents!={}){sidebar.innerHTML=sidebarcontents;chrome.runtime.sendMessage({"icon":1})}
+else{reloadCurrentTab();chrome.runtime.sendMessage({"icon":1})}}
+else{dataobj.preference=1;chrome.storage.local.set(dataobj);var sidebar=document.querySelector('.side');sidebarcontents=sidebar.innerHTML;sidebar.innerHTML='';var wikimargin=document.querySelector('.wiki-page-content');console.log(wikimargin);if(wikimargin!=null){wikimargin.style.marginRight=0}
+console.log("sidebar hidden");chrome.runtime.sendMessage({"icon":2})}})}})
