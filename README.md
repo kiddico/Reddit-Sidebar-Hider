@@ -1,5 +1,5 @@
 <center>
-![icon](https://raw.githubusercontent.com/kiddico/Reddit-Sidebar-Hider/master/images/256_icon.png)
+<img src="https://raw.githubusercontent.com/kiddico/Reddit-Sidebar-Hider/master/images/256_icon.png" style="height:128px" />
 [![store-avail](https://raw.githubusercontent.com/kiddico/Reddit-Sidebar-Hider/master/images/store_availc.png)](https://chrome.google.com/webstore/detail/reddit-sidebar-hider/aipfmjljjkiepeocilaillicdohnkehp?hl=en&gl=US)
 </center>
 
