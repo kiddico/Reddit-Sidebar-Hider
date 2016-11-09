@@ -21,9 +21,9 @@ It's pretty easy to grasp. You hit the button, and the sidebar goes away. You hi
 <img style="display:inline" src="https://raw.githubusercontent.com/kiddico/Reddit-Sidebar-Hider/master/images/ex.gif" height="300"/>
 </div>
 
-### "How do I get the thing?" - You, 2016
-
 ---
+
+### "How do I get the thing?" - You, 2016
 
 #### Chrome
 Well, you've got 3 options. (I would stick to #1 if I were you)
