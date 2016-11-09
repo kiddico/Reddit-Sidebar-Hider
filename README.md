@@ -46,7 +46,5 @@ You can get it [here](https://addons.mozilla.org/en-US/firefox/addon/reddit-side
 
 Todo:
 
-* Get published through firefox store thing.
 * Reduce or remove initial delay of sidebar removal on pageload.
-* Actually have users?
-	* the lowest priority of all.
+* Opera support anyone? Safari? Maybe.
