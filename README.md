@@ -48,3 +48,5 @@ Todo:
 
 * Reduce or remove initial delay of sidebar removal on pageload.
 * Opera support anyone? Safari? Maybe.
+
+License - GPLv3
