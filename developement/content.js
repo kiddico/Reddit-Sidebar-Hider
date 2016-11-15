@@ -1,19 +1,19 @@
 //sends message to event page to reload
-function reloadTheCurrentTab(){
-	chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
-		chrome.tabs.update(tabs[0].id, {url: tabs[0].url});
-	});
-	chrome.runtime.sendMessage({message: "reload"}, function(response) {
-		console.log(response.farewell);
-	});
-}
+//function reloadTheCurrentTab(){
+//	chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
+//		chrome.tabs.update(tabs[0].id, {url: tabs[0].url});
+//	});
+//	chrome.runtime.sendMessage({message: "reload"}, function(response) {
+//		console.log(response.farewell);
+//	});
+//}
 
 
 //gets rid of saved data from the local storage
-function clear(){
-	chrome.storage.local.remove(["preference"]);
-	console.log("cleared");
-}
+//function clear(){
+//	chrome.storage.local.remove(["preference"]);
+//	console.log("cleared");
+//}
 
 
 //used later to store the contents of the sidebar
@@ -36,7 +36,7 @@ chrome.storage.local.get(["preference"],function(returned)
 			sidebar.innerHTML = '';
 			var wikimargin = document.querySelector('.wiki-page-content');
 			wikimargin.style.marginRight=0;
-			console.log("removed sidebar");
+			//console.log("removed sidebar");
 			chrome.runtime.sendMessage({ "icon" : 2 });
 		}
 		else{
@@ -71,7 +71,7 @@ chrome.runtime.onMessage.addListener(
 						reloadCurrentTab();
 						chrome.runtime.sendMessage({ "icon" : 1 });
 					}
-					console.log("sidebar revealed");
+					//console.log("sidebar revealed");
 				}
 				else{
 					dataobj["preference"] = 1;
