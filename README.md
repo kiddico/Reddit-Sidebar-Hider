@@ -26,7 +26,7 @@ It's pretty easy to grasp. You hit the button, and the sidebar goes away. You hi
 
 ---
 
-### "How do I get the thing?" - You, 2016
+### "How do I get the thing?" - You, 2017
 
 #### Chrome
 Well, you've got 3 options. (I would stick to #1 if I were you)
