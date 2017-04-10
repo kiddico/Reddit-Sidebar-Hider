@@ -1,6 +1,12 @@
 <center>
 <img src="https://raw.githubusercontent.com/kiddico/Reddit-Sidebar-Hider/master/images/256_icon.png" height="120" />
+
+<a href="https://chrome.google.com/webstore/detail/reddit-sidebar-hider/aipfmjljjkiepeocilaillicdohnkehp?hl=en&gl=US&authuser=2">
+	<img src="https://raw.githubusercontent.com/kiddico/Reddit-Sidebar-Hider/master/images/store_availc.png">
+ </a>
+
 [![store-avail](https://raw.githubusercontent.com/kiddico/Reddit-Sidebar-Hider/master/images/store_availc.png)](https://chrome.google.com/webstore/detail/reddit-sidebar-hider/aipfmjljjkiepeocilaillicdohnkehp?hl=en&gl=US&authuser=2)
+
 <a href="https://addons.mozilla.org/en-US/firefox/addon/reddit-sidebar-getter-ridder/"> 
 	<img src="https://raw.githubusercontent.com/kiddico/Reddit-Sidebar-Hider/master/images/firefox_256.png" height="120" />
 </a>
