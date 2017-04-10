@@ -14,8 +14,8 @@
 
 ---
 
-##<center>Reddit Sidebar Hider </center>
-####a simple chrome extension to toggle the reddit sidebar
+## Reddit Sidebar Hider
+#### a simple chrome extension to toggle the reddit sidebar
 You know what I think is dumb? When you have a small screen and you want to go on reddit and not hate life. But you get to reddit, and you hate life cause you can't actually do anything. Well you can, you just get a sliver of your own screen. The rest is owned by the all powerfull sidebar. Screw the sidebar. I hate it. Unless I need it. Then I love it. Why not both?
 
 Well this is both. This chrome extension is a simple sidebar hider for reddit.
