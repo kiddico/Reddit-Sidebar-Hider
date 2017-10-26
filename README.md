@@ -1,6 +1,4 @@
 <center>
-<img src="https://raw.githubusercontent.com/kiddico/Reddit-Sidebar-Hider/master/images/256_icon.png" height="120" />
-
 <a href="https://chrome.google.com/webstore/detail/reddit-sidebar-hider/aipfmjljjkiepeocilaillicdohnkehp?hl=en&gl=US&authuser=2">
 	<img src="https://raw.githubusercontent.com/kiddico/Reddit-Sidebar-Hider/master/images/store_availc.png">
  </a>
@@ -26,6 +24,7 @@ It's pretty easy to grasp. You hit the button, and the sidebar goes away. You hi
 
 <div>
 <h3 style="float: left; display: inline;">A short example gif : &nbsp;&nbsp; </h3>
+<img style="display:inline" src="https://raw.githubusercontent.com/kiddico/Reddit-Sidebar-Hider/master/images/ex.gif" height="300"/>
 <img style="display:inline" src="https://raw.githubusercontent.com/kiddico/Reddit-Sidebar-Hider/master/images/ex.gif" height="300"/>
 </div>
 
