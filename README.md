@@ -4,7 +4,7 @@
  </a>
 
 
-<a href="https://addons.mozilla.org/en-US/firefox/addon/reddit-sidebar-getter-ridder/"> 
+<a href="https://addons.mozilla.org/addon/reddit-sidebar-getter-ridder?src=github"> 
 	<img src="https://raw.githubusercontent.com/kiddico/Reddit-Sidebar-Hider/master/images/firefox_256.png" height="120" />
 </a>
 
