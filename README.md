@@ -46,7 +46,7 @@ Well, you've got 3 options. (I would stick to #1 if I were you)
 #### Firefox
 If you're a firefox user the only option right now is to download it through the firefox store thingy. If the store won't work for you well, that sucks, cause it's the only option. Mozilla doesn't like it when people play with their toys so you need to install a special edition of firefox, and bla bla bla. Just use the store.
 
-You can get it [here](https://addons.mozilla.org/en-US/firefox/addon/reddit-sidebar-getter-ridder/).
+You can get it [here](https://addons.mozilla.org/addon/reddit-sidebar-getter-ridder?src=github).
 
 ---
 
