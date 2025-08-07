@@ -52,7 +52,6 @@ You can get it [here](https://addons.mozilla.org/addon/reddit-sidebar-getter-rid
 
 Todo:
 
-* Some subreddits use a custom sidebar that breaks everything. It would be nice if that didn't happen.
 * Reduce or remove initial delay of sidebar removal on pageload.
 * Opera support anyone? Safari? Maybe.
 
